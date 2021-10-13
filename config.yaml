@@ -1,3 +1,8 @@
+data:
+    raw:
+        - ./datasets/churn-bigml-80.csv
+        - ./datasets/churn-bigml-20.csv
+    prepared: ./datasets/churn-bigml-prepared.csv
 model:
     random_state: 42
     test_size:    0.33
